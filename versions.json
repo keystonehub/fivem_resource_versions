@@ -1,9 +1,14 @@
 {
     "resources": {
         "fivem_utils": {
-            "version": "1.0.3",
+            "version": "1.0.4",
             "notes": [
-                "Required update: Missing some key functions from rebuild, please update."
+                "- Removed reliance on convars, seems like most people have zero idea how to set these up, reverted back to config type.",
+                "! Environment: get_environment_details now returns additional for: scumminess, ground_material, rain_level, wind_speed, wind_direction, snow_level, altitude.",
+                "+ Environment: new functions get_zone_scumminess, get_ground_material, get_wind_direction, get_altitude",
+                "+ Environment: added get_weather_name function back in was missing from rebuilt",
+                "+ config.lua to replace convars, convars are better but the extra step for people is annoying and i rather not have to keep explaining it.",
+                "+ added most of the support needed for ND_Core will finish this asap."
             ]
         }
     }
