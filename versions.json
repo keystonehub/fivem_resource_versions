@@ -3,7 +3,7 @@
         "fivem_utils": {
             "version": "1.0.6",
             "notes": [
-                "! Framework Bridges: Added mapping to adjust_statuses function for "armour" + "armor", because american english..",
+                "! Framework Bridges: Added mapping to adjust_statuses function for armour + armor, because american english..",
                 "! Licences: Changed callbacks that were not updated from rebuild.",
                 "! Cooldowns: Changed callbacks that were not updated from rebuild.",
                 "! Skills: Changed callbacks that were not updated from rebuild.",
