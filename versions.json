@@ -1,18 +1,10 @@
 {
     "resources": {
         "fivem_utils": {
-            "version": "1.0.5",
+            "version": "1.0.7",
             "notes": [
-                "! Framework Bridges: Added mapping to adjust_statuses function for armour + armor, because american english..",
-                "! Licences: Changed callbacks that were not updated from rebuild.",
-                "! Cooldowns: Changed callbacks that were not updated from rebuild.",
-                "! Skills: Changed callbacks that were not updated from rebuild.",
-                "! Drawtext Bridge: Fixed type in  hide_drawtext function and replaced print with utils.debug_log.",
-                "! init.lua: Refactor module loading and removed some category tags from print notes, i really cannot be bothered updating all the old notes to contain them.",
-                "! Notification Bridge: Replaced print with utils.debug_log, slight change to server side event.",
-                "+ Reputation: Added missing module call for callbacks.",
-                "- Drawtext Bridge: Removed left over test commands.",
-                "- init.lua: Removed old command to toggle debug convar since no longer used."
+                "! Drawtext: Actually fixed the typo mentioned previously..",
+                "! Notifications: Fixed incorrect use of next. "
             ]
         }
     }
