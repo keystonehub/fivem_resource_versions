@@ -1,10 +1,12 @@
 {
     "resources": {
         "fivem_utils": {
-            "version": "1.0.7",
+            "version": "1.0.9",
             "notes": [
-                "! Drawtext: Actually fixed the typo mentioned previously..",
-                "! Notifications: Fixed incorrect use of next. "
+                "! Changed utils_bans table schema, remove old table and replace.",
+                "- Removed debug print in commands.",
+                "- Removed events from callbacks added into scripts/callbacks.",
+                "+ New scripts folder to remove events from modules."
             ]
         }
     }
