@@ -8,6 +8,10 @@
                 "- Removed events from callbacks added into scripts/callbacks.",
                 "+ New scripts folder to remove events from modules."
             ]
+        },
+        "key_utils": {
+            "version": "1.0.10",
+            "notes": []
         }
     }
 }
